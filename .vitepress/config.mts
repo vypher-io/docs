@@ -4,11 +4,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Vypher",
   description: "PII and PHI Scanning Tool",
+  appearance: 'dark',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'CLI Reference', link: '/cli/vypher' }
+      { text: 'CLI Reference', link: '/cli/vypher' },
+      { text: 'vypher.io', link: 'https://vypher.io' }
     ],
 
     sidebar: [
@@ -23,6 +25,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vypher-io/cli' }
-    ]
+    ],
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: '© 2026 Vypher'
+    }
   }
 })

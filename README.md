@@ -1,6 +1,6 @@
 # Vypher Docs
 
-This directory contains the source for the [Vypher](https://github.com/vypher-io/cli) documentation site, built with [VitePress](https://vitepress.dev/).
+This directory contains the source for the [Vypher](https://github.com/vypher-io/cli) documentation site, built with [VitePress](https://vitepress.dev/) and deployed to [docs.vypher.io](https://docs.vypher.io).
 
 ## Structure
 

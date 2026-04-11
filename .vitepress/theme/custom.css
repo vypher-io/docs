@@ -1,0 +1,100 @@
+/* Brand colours */
+:root {
+  --vp-c-brand-1: #00ff9d;
+  --vp-c-brand-2: #00cc7d;
+  --vp-c-brand-3: #00ff9d;
+  --vp-c-brand-soft: rgba(0, 255, 157, 0.1);
+
+  --vp-c-bg: #0a0a0a;
+  --vp-c-bg-soft: #111111;
+  --vp-c-bg-mute: #1a1a1a;
+
+  --vp-c-divider: rgba(255, 255, 255, 0.08);
+  --vp-c-text-1: #ffffff;
+  --vp-c-text-2: rgba(255, 255, 255, 0.6);
+  --vp-c-text-3: rgba(255, 255, 255, 0.38);
+}
+
+/* Force dark mode regardless of system preference */
+.dark {
+  --vp-c-bg: #0a0a0a;
+  --vp-c-bg-soft: #111111;
+  --vp-c-bg-mute: #1a1a1a;
+}
+
+/* Nav */
+.VPNav {
+  background: rgba(10, 10, 10, 0.7) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Nav title gradient */
+.VPNavBarTitle .title {
+  background: linear-gradient(90deg, #00ff9d, #00e5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+/* Active nav link */
+.VPNavBarMenuLink.active,
+.VPNavBarMenuLink:hover {
+  color: #00ff9d !important;
+}
+
+/* Sidebar active item */
+.VPSidebarItem.is-active > .item .link,
+.VPSidebarItem .link:hover {
+  color: #00ff9d !important;
+}
+
+/* Links */
+.vp-doc a {
+  color: #00ff9d;
+  text-decoration: none;
+}
+.vp-doc a:hover {
+  color: #00e5ff;
+  text-decoration: underline;
+}
+
+/* Code blocks */
+.vp-doc div[class*='language-'] {
+  background: #111111 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Inline code */
+.vp-doc code {
+  background: rgba(0, 255, 157, 0.08);
+  color: #00ff9d;
+  border-radius: 4px;
+}
+
+/* Table */
+.vp-doc table thead tr {
+  border-bottom: 1px solid rgba(0, 255, 157, 0.3);
+}
+.vp-doc th {
+  color: #00ff9d;
+}
+
+/* Hero button */
+.VPButton.brand {
+  background: #00ff9d !important;
+  color: #0a0a0a !important;
+  font-weight: 700;
+  border: none !important;
+}
+.VPButton.brand:hover {
+  background: #00cc7d !important;
+}
+.VPButton.alt {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+}
+.VPButton.alt:hover {
+  border-color: rgba(255, 255, 255, 0.4) !important;
+}
