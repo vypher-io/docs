@@ -1,0 +1,10 @@
+# VitePress build output
+.vitepress/dist/
+.vitepress/cache/
+
+# Node
+node_modules/
+package-lock.json
+
+# OS
+.DS_Store
