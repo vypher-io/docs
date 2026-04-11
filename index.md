@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /cli/vypher
+      link: /installation
     - theme: alt
       text: GitHub
       link: https://github.com/vypher-io/cli

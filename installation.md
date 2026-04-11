@@ -1,0 +1,73 @@
+# Installation
+
+## Homebrew (macOS)
+
+The easiest way to install Vypher on macOS.
+
+```bash
+brew install vypher-io/tap/vypher
+```
+
+To update to the latest version:
+
+```bash
+brew upgrade vypher
+```
+
+---
+
+## Go Install
+
+Requires [Go 1.20+](https://go.dev/dl/).
+
+```bash
+go install github.com/vypher-io/cli@latest
+```
+
+The `vypher` binary will be placed in `$(go env GOPATH)/bin`. Make sure that directory is on your `PATH`:
+
+```bash
+export PATH="$PATH:$(go env GOPATH)/bin"
+```
+
+---
+
+## Build from Source
+
+```bash
+git clone https://github.com/vypher-io/cli.git
+cd cli
+go build -o vypher .
+```
+
+Move the binary somewhere on your `PATH`:
+
+```bash
+mv vypher /usr/local/bin/vypher
+```
+
+---
+
+## Verify Installation
+
+```bash
+vypher --help
+```
+
+You should see output like:
+
+```
+Vypher is a CLI tool designed to scan directories for Personally Identifiable Information (PII)
+and Protected Health Information (PHI) with a focus on finance and healthcare data.
+
+Usage:
+  vypher [command]
+
+Available Commands:
+  scan        Scan a directory for PII/PHI
+  help        Help about any command
+
+Flags:
+  -c, --config string   config file (e.g. .vypher.yaml)
+  -h, --help            help for vypher
+```
