@@ -6,5 +6,8 @@
 node_modules/
 package-lock.json
 
+# Wrangler
+.wrangler/
+
 # OS
 .DS_Store
