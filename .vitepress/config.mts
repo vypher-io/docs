@@ -18,7 +18,6 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
       { text: 'CLI Reference', link: '/cli/vypher' },
       { text: 'vypher.io', link: 'https://vypher.io' }
     ],
@@ -27,6 +26,7 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
+          { text: 'Home', link: '/' },
           { text: 'Installation', link: '/installation' }
         ]
       },
@@ -49,6 +49,13 @@ export default defineConfig({
           { text: 'vypher scan', link: '/cli/vypher_scan' },
           { text: 'vypher version', link: '/cli/vypher_version' },
           { text: 'vypher docs', link: '/cli/vypher_docs' }
+        ]
+      },
+      {
+        text: 'External',
+        items: [
+          { text: 'vypher.io', link: 'https://vypher.io' },
+          { text: 'GitHub', link: 'https://github.com/vypher-io/cli' }
         ]
       }
     ],
