@@ -35,6 +35,10 @@ export default defineConfig({
         items: [
           { text: 'Docker', link: '/integrations/docker' },
           { text: 'GitHub Actions', link: '/integrations/github-actions' },
+          { text: 'GitLab CI/CD', link: '/integrations/gitlab-ci' },
+          { text: 'Azure Pipelines', link: '/integrations/azure-pipelines' },
+          { text: 'CircleCI', link: '/integrations/circleci' },
+          { text: 'Jenkins', link: '/integrations/jenkins' },
           { text: 'Git Hooks', link: '/integrations/git-hooks' }
         ]
       },
