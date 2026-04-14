@@ -125,12 +125,12 @@ Vypher ships with 11 built-in detection patterns:
 |---------|-------------|------|------------|
 | Credit Card | 13-16 digit card numbers | `finance`, `pii` | Luhn algorithm + keyword proximity |
 | SSN | US Social Security Numbers (XXX-XX-XXXX) | `finance`, `pii`, `government` | Keyword proximity |
-| Email | Email addresses | `pii`, `communication` | — |
-| Phone | US/International phone numbers | `pii`, `communication` | — |
-| IBAN | International Bank Account Numbers | `finance` | — |
-| MRN | Medical Record Numbers (6-12 digits, prefixed) | `healthcare`, `phi` | — |
-| DOB | Date of Birth near keywords | `pii`, `phi` | — |
-| ICD-10 | ICD-10 medical diagnosis codes | `healthcare`, `phi` | — |
+| Email | Email addresses | `pii`, `communication` | N/A |
+| Phone | US/International phone numbers | `pii`, `communication` | N/A |
+| IBAN | International Bank Account Numbers | `finance` | N/A |
+| MRN | Medical Record Numbers (6-12 digits, prefixed) | `healthcare`, `phi` | N/A |
+| DOB | Date of Birth near keywords | `pii`, `phi` | N/A |
+| ICD-10 | ICD-10 medical diagnosis codes | `healthcare`, `phi` | N/A |
 | Bitcoin | P2PKH, P2SH, Bech32 wallet addresses | `finance`, `crypto` | Keyword proximity |
 | Ethereum | 0x-prefixed 40 hex char addresses | `finance`, `crypto` | Keyword proximity |
 | Solana | Base58 32-44 char wallet addresses | `finance`, `crypto` | Keyword proximity |
