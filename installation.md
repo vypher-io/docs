@@ -1,8 +1,8 @@
 # Installation
 
-## Homebrew (macOS)
+## Homebrew (macOS and Linux)
 
-The easiest way to install Vypher on macOS.
+The easiest way to install Vypher on macOS and Linux.
 
 ```bash
 brew install vypher-io/tap/vypher
