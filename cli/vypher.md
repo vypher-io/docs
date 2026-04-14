@@ -68,3 +68,4 @@ CLI flags always override config file values. For example, `--output json` will 
 ### SEE ALSO
 
 * [vypher scan](vypher_scan.md) - Scan a directory for PII/PHI
+* [vypher version](vypher_version.md) - Print the version of vypher
