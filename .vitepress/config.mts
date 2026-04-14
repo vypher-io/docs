@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Vypher",
   description: "PII and PHI Scanning Tool",
-  appearance: 'dark',
+  appearance: true,
   sitemap: {
     hostname: 'https://docs.vypher.io'
   },
