@@ -16,6 +16,23 @@ brew upgrade vypher-io/tap/vypher
 
 ---
 
+## Scoop (Windows)
+
+The easiest way to install Vypher on Windows.
+
+```powershell
+scoop bucket add vypher-io https://github.com/vypher-io/scoop-bucket
+scoop install vypher
+```
+
+To update to the latest version:
+
+```powershell
+scoop update vypher
+```
+
+---
+
 ## Go Install
 
 Requires [Go 1.20+](https://go.dev/dl/).
