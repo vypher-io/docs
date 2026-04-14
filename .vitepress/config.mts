@@ -47,7 +47,8 @@ export default defineConfig({
         items: [
           { text: 'vypher', link: '/cli/vypher' },
           { text: 'vypher scan', link: '/cli/vypher_scan' },
-          { text: 'vypher version', link: '/cli/vypher_version' }
+          { text: 'vypher version', link: '/cli/vypher_version' },
+          { text: 'vypher docs', link: '/cli/vypher_docs' }
         ]
       }
     ],
