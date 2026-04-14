@@ -33,6 +33,18 @@ scoop update vypher
 
 ---
 
+## Docker
+
+No installation required. Mount the directory you want to scan as a volume:
+
+```bash
+docker run --rm -v "$(pwd)":/scan pseudocoding/vypher scan --target /scan
+```
+
+See [Integrations](/integrations) for more Docker usage examples.
+
+---
+
 ## Go Install
 
 Requires [Go 1.20+](https://go.dev/dl/).
