@@ -5,13 +5,13 @@
 The easiest way to install Vypher on macOS.
 
 ```bash
-brew install vypher-io/tap/cli
+brew install vypher-io/tap/vypher
 ```
 
 To update to the latest version:
 
 ```bash
-brew upgrade vypher
+brew upgrade vypher-io/tap/vypher
 ```
 
 ---
