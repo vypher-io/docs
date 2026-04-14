@@ -37,10 +37,10 @@ docker run --rm -v "$(pwd)":/scan pseudocoding/vypher scan --target /scan --conf
 docker pull pseudocoding/vypher:latest
 
 # Specific version
-docker pull pseudocoding/vypher:0.0.4
+docker pull pseudocoding/vypher:0.0.6
 
 # In CI, prefer pinning to a specific version for reproducibility
-docker run --rm -v "$(pwd)":/scan pseudocoding/vypher:0.0.4 scan --target /scan --fail-on-match
+docker run --rm -v "$(pwd)":/scan pseudocoding/vypher:0.0.6 scan --target /scan --fail-on-match
 ```
 
 ### GitHub Actions with Docker
