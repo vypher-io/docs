@@ -5,6 +5,9 @@ hero:
   name: "Vypher"
   text: "PII and PHI Scanning CLI"
   tagline: secure by nature
+  image:
+    src: /vypher-icon.jpg
+    alt: Vypher
   actions:
     - theme: brand
       text: Get Started
