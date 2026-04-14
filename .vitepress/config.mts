@@ -27,7 +27,8 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
-          { text: 'Installation', link: '/installation' }
+          { text: 'Installation', link: '/installation' },
+          { text: 'Integrations', link: '/integrations' }
         ]
       },
       {
