@@ -27,8 +27,15 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
-          { text: 'Installation', link: '/installation' },
-          { text: 'Integrations', link: '/integrations' }
+          { text: 'Installation', link: '/installation' }
+        ]
+      },
+      {
+        text: 'Integrations',
+        items: [
+          { text: 'Docker', link: '/integrations/docker' },
+          { text: 'GitHub Actions', link: '/integrations/github-actions' },
+          { text: 'Git Hooks', link: '/integrations/git-hooks' }
         ]
       },
       {
