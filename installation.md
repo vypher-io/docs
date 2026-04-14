@@ -41,7 +41,7 @@ No installation required. Mount the directory you want to scan as a volume:
 docker run --rm -v "$(pwd)":/scan pseudocoding/vypher scan --target /scan
 ```
 
-See [Integrations](/integrations) for more Docker usage examples.
+See [Integrations](/integrations/docker) for more Docker usage examples.
 
 ---
 
