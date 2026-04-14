@@ -7,7 +7,9 @@ Scan a directory for PII/PHI
 Scan a directory recursively for files containing PII (Personally Identifiable Information) 
 or PHI (Protected Health Information).
 
-The following directories are ignored by default: .git, node_modules, vendor, .venv, __pycache__
+The following directories are ignored by default: `.git`, `node_modules`, `vendor`, `.venv`, `__pycache__`, `dist`, `build`, `.next`, `.nuxt`, `out`
+
+The following files are ignored by default to prevent false positives from checksums and generated content: `package-lock.json`, `yarn.lock`, `pnpm-lock.yaml`, `bun.lockb`, `go.sum`, `Cargo.lock`, `composer.lock`, `Gemfile.lock`, `poetry.lock`, `*.lock`
 
 Configuration can be loaded from a YAML file with --config. CLI flags override config file values.
 
@@ -21,6 +23,12 @@ Examples:
   vypher scan -t ./src --rules finance,phi
   vypher scan -t ./src --max-depth 3
   vypher scan --config .vypher.yaml --fail-on-match
+
+Console output reports findings with line numbers:
+
+  File: /path/to/src/users.go
+    - [Email] jo****om (Line: 42)
+    - [SSN] 12****89 (Line: 87)
 
 ```
 vypher scan [flags]
