@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Vypher",
-  description: "PII and PHI Scanning Tool",
+  description: "Vypher is an open-source CLI tool that detects PII and PHI in your source code. Built for Finance (PCI DSS) and Healthcare (HIPAA) compliance. SARIF output, CI/CD ready, cross-platform.",
   appearance: true,
   sitemap: {
     hostname: 'https://docs.vypher.io'
@@ -14,6 +14,31 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    ['meta', { name: 'keywords', content: 'PII scanner, PHI scanner, HIPAA compliance, PCI DSS, sensitive data detection, security CLI, Go, SARIF, DevSecOps, secret scanning' }],
+    // Open Graph
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'Vypher Docs' }],
+    ['meta', { property: 'og:image', content: 'https://docs.vypher.io/og-image.png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { property: 'og:image:alt', content: 'Vypher logo' }],
+    // Twitter Card
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:image', content: 'https://docs.vypher.io/og-image.png' }],
+    // JSON-LD
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'TechArticle',
+      'name': 'Vypher Documentation',
+      'url': 'https://docs.vypher.io',
+      'description': 'Official documentation for Vypher, an open-source CLI tool for detecting PII and PHI in source code.',
+      'publisher': {
+        '@type': 'Organization',
+        'name': 'Vypher',
+        'url': 'https://vypher.io'
+      }
+    })],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
