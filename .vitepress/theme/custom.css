@@ -8,9 +8,9 @@
 
 /* Dark mode */
 .dark {
-  --vp-c-bg: #0a0a0a;
-  --vp-c-bg-soft: #111111;
-  --vp-c-bg-mute: #1a1a1a;
+  --vp-c-bg: #030711;
+  --vp-c-bg-soft: #0a0f1e;
+  --vp-c-bg-mute: #0f1629;
   --vp-c-divider: rgba(255, 255, 255, 0.08);
   --vp-c-text-1: #ffffff;
   --vp-c-text-2: rgba(255, 255, 255, 0.6);
@@ -35,7 +35,7 @@
 }
 
 .dark .VPNavBar {
-  background: rgba(10, 10, 10, 0.7) !important;
+  background: rgba(3, 7, 17, 0.7) !important;
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
